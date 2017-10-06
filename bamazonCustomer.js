@@ -75,10 +75,7 @@ function purchaseOrder(){
 		
 		var orderId = parseInt(response.idSelect);
 		var orderIndex = orderId - 1;
-
 		var orderQty = parseInt(response.qtySelect);
-
-
 
 		connection.query('SELECT* FROM products', function(err, res){
 			if(err) throw err;

@@ -77,9 +77,10 @@
             console.log('\nenter valid ID\n');
             return false;
 
-}
-}
-}, ```
+    }
+    }
+    }, 
+```
 
 ##### The validate function will check the value of the input simultaneously with the user answering the prompt. If it fails to meet the requirements it will ask the question again.
 

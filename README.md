@@ -49,7 +49,7 @@
 ### Storing Item ID's
 
 
-``javascript
+```javascript
 var idArr = [];
 
 connection.query(
@@ -62,7 +62,7 @@ idArr.push(parseInt(response[i].item_id));
 
 ### Validate Function as a Property of Question Object
 
-`javascript
+```javascript
 inquirer.prompt([
 {
 type: 'input',

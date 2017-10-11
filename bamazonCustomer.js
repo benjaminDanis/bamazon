@@ -60,11 +60,32 @@ function readProducts(){
 
 function purchaseOrder(){
 
+	var idArr = [];
+
+	connection.query(
+  	'SELECT item_id FROM products', function(err, response){
+  		for (var i = response.length - 1; i >= 0; i--) {
+			idArr.push(parseInt(response[i].item_id));
+			
+		}
+
+  	});
+
 	inquirer.prompt([
 	{
 		type: 'input',
 		message: 'Please enter the ID of the item you would like to purchase',
-		name: 'idSelect'
+		name: 'idSelect',
+		validate: function(input){
+			if(idArr.indexOf(parseInt(input)) > -1){
+				return true;
+			} else{
+				
+				console.log('\nenter valid ID\n');
+				return false;
+
+			}
+		}
 	},
 	{
 		type: 'input',

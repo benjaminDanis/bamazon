@@ -13,7 +13,11 @@ CREATE TABLE products(
   PRIMARY KEY(item_id)
 );
 
-CREATE TABLE departments()
+CREATE TABLE departments(
+  department_id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  department_name VARCHAR(30),
+  overhead_costs INTEGER(11) NOT NULL,
+)
 
 INSERT INTO products(product_name, department_name, price, stock_qty);
 VALUES("Speakers", "Electronics", 275.00, 7500);

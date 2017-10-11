@@ -49,20 +49,20 @@
 ### Storing Item ID's
 
 
-```javascript
+``javascript
 var idArr = [];
 
 connection.query(
 'SELECT item_id FROM products', function(err, response){
 for (var i = response.length - 1; i >= 0; i--) {
 idArr.push(parseInt(response[i].item_id));
-}); ```
+}); ``
 
 ##### Querying the item_id column of the database and pushing them into an array.
 
 ### Validate Function as a Property of Question Object
 
-```javascript
+`javascript
 inquirer.prompt([
 {
 type: 'input',
@@ -78,7 +78,7 @@ return false;
 
 }
 }
-}, ```
+}, ``
 
 ##### The validate function will check the value of the input simultaneously with the user answering the prompt. If it fails to meet the requirements it will ask the question again.
 

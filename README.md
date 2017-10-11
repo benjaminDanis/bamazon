@@ -41,7 +41,7 @@
 
 ### Selecting Add New Product
 ![screen shot 2017-10-08 at 2 36 48 pm](https://user-images.githubusercontent.com/28717260/31320214-3d3a2eb6-ac36-11e7-9179-5e1312111494.png)
-Adding a new product to the inventory allows the user to create the item, department name, set the price, and stock the item. Once the information is entered, it will be displayed as appears in the database, along with the auto generated id. The user can now exit, or return to the main menu.
+##### Adding a new product to the inventory allows the user to create the item, department name, set the price, and stock the item. Once the information is entered, it will be displayed as appears in the database, along with the auto generated id. The user can now exit, or return to the main menu.
 
 
 ## Using Inquirer to Validate

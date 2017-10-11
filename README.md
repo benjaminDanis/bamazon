@@ -31,7 +31,7 @@
 ![screen shot 2017-10-08 at 2 34 32 pm](https://user-images.githubusercontent.com/28717260/31320213-3d36fa98-ac36-11e7-9984-0e8458b5ef2a.png)
 ##### Selecting the low inventory option previews which items have less than 300 in the remaining inventory. The screen will display all the information about the item and prompts the user if they would like to restock. Declining the confirm will ask the user if they would like to go back to the main menu, or exit the program.
 
-###C hoosing 'Restock' after Low Inventory
+### Choosing 'Restock' after Low Inventory
 ![screen shot 2017-10-08 at 2 35 11 pm](https://user-images.githubusercontent.com/28717260/31320210-3d33dfb6-ac36-11e7-9d56-c3be87095b34.png)
 ##### Choosing to restock will then show the user the product name, the previous quantity, and the update quantity. It will then automatically display the remaining low inventory. If there is none, it will show that the inventory is fully stocked, and prompt main menu or exit. When restocking, there is also id validation, where an incorrect id will alert the user that the product does not exist, and ask them to re-enter a vlid id.
 
@@ -39,7 +39,7 @@
 ![screen shot 2017-10-08 at 2 35 48 pm](https://user-images.githubusercontent.com/28717260/31320212-3d35eef0-ac36-11e7-821e-0dad6acaea84.png)
 ##### Adding to inventory outright will also provide the same id verification, and display low inventory automatically after the selected product has been restocked. The user will also receive the same prompt to either exit or return to the main menu.
 
-###Selecting Add New Product
+### Selecting Add New Product
 ![screen shot 2017-10-08 at 2 36 48 pm](https://user-images.githubusercontent.com/28717260/31320214-3d3a2eb6-ac36-11e7-9179-5e1312111494.png)
 Adding a new product to the inventory allows the user to create the item, department name, set the price, and stock the item. Once the information is entered, it will be displayed as appears in the database, along with the auto generated id. The user can now exit, or return to the main menu.
 
